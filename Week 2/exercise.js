@@ -33,5 +33,50 @@ console.log(app.split(","))
 //Replace a word in a string using replace method
 console.log(challenge.replace("JavaScript","Python" ))
 
+//print the index of 15 in string 
+console.log(challenge.charAt(15))
+
+//print the character of "j" code in string
+console.log(challenge.charCodeAt("j"))
+
+//print the indexOf first occurence in string
+console.log(challenge.indexOf("a"))
+
+//print the indexOf first occurence of the word in the given string
+let firstWord = "You cannot end a with because because because is a conjunction"
+console.log(firstWord.indexOf('because'))
+
+//print the indexOf last occurence of the word because in the given string
+console.log(firstWord.lastIndexOf("because"))
+
+//print the position of the first of the work because
+ console.log(firstWord.search("because"))
+
+ //Remove spacing from string
+ let firstWord1 = " 30 Days Of javascript  "
+ console.log(firstWord1.trim())
+
+//Finds the first word with startsWith
+console.log(challenge.startsWith("30"))
+
+//Finds the last word with endsWith
+console.log(challenge.endsWith("JavaScript"))
+
+//finds all a's in string
+let course = '30 Days of JavaScript'
+console.log(course.match('a'))
+
+//Use concate to merge multiple strings to a single string
+let num = "30"
+let duration = 'Days'
+let adjective = "of"
+let language = "JavaScript"
+console.log(num + ' ' + duration + ' ' + adjective + ' ' + ' ' + language)
+
+//Use repeat to repeat string twice
+console.log(challenge.repeat(2))
+
+ 
+
 
 
