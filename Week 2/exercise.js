@@ -63,8 +63,9 @@ console.log(challenge.startsWith("30"))
 console.log(challenge.endsWith("JavaScript"))
 
 //finds all a's in string
-let course = '30 Days of JavaScript'
-console.log(course.match('a'))
+let string = '30 Days of JavaScript'
+let course = /a/gi
+console.log(string.match(course))
 
 //Use concate to merge multiple strings to a single string
 let num = "30"
