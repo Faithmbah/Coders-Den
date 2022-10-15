@@ -1,3 +1,5 @@
+// Create datatypes.js file and use the JavaScript typeof operator to check different data types
+
 let firstname = "Faith"
 let isMarried = false
 let age = undefined
