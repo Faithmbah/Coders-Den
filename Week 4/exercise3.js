@@ -1,11 +1,21 @@
 
-let month = prompt ("Enter a month to find out the nunber of days")
+let month = "Febuary"
+// prompt ("Enter a month to find out the nunber of days")
 
 switch(month){
-    case "September", "April", "june", "November":
+    case "September":
+    case "April":
+    case "june":
+    case "November":
         console.log(`${month} has 30 days`)
         break;
-    case "January", "March", "May", "July", "August", "October", "Decembr":
+    case "January":
+    case "March":
+    case "May":
+    case "July":
+    case "August":
+    case "October":
+    case "Decembr":
         console.log(`${month} has 31 days`)
         break;
     case "Febuary":

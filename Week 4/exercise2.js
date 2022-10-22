@@ -1,41 +1,56 @@
 
-let score = prompt ("What is your score?")
-if (score > 80 || score == 100){
+let score = 80
+// prompt ("What is your score?")
+if (score >= 80 && score <= 100){
     console.log ("A")
-} else if (score > 70 && score == 89 ){    
+} else if (score >= 70 && score <= 89 ){    
     console.log("B")
-} else if (score > 60 && score == 79){
-    console.log("B")
-}else if (score > 60 && score == 79){
-    console.log("B")
-}else if (score > 60 && score == 79){
-    console.log("B")
+} else if (score >= 60 && score <= 69){
+    console.log("C")
+}else if (score >= 50 && score <= 59){
+    console.log("D")
+}else if (score >= 0 && score <= 49){
+    console.log("F")
 } else {
     console.log("Input a number between 0 - 100")
 }
 
-let season = prompt("Enter a month to find out the season")
+let season = "March"
+// prompt("Enter a month to find out the season")
 
 switch (season){
-    case "January", "Decembr", "Febuary":
-        console.log("Thee season is winter")
+    case "January": 
+    case "Decembr": 
+    case "Febuary":
+        console.log("The season is winter")
         break;
-    case "March", "April", "May":
+    case "March":
+    case "April":
+    case "May":
         console.log("The season is Spring")
         break;
-    case "June", "July", "August":
+    case "June":
+    case "July":
+    case "August":
         console.log("The season is Summer")
-    case "September", "October", "November":
+    case "September":
+    case "October":
+    case  "November":
         console.log("The season is Autumn")
         break;
     default:
-        console.log("Enter another month to know the season")
+        console.log("Enter another month to know the season. \n PS: The is case sensitive")
 }
 
-let day = prompt("What is today?")
+let day = "Monday"
+// prompt("What is today?")
 
 switch (day){
-    case "Monday", "Tuesday", "Wednesday", "Thursday", "Friday":
+    case "Monday":
+    case "Tuesday":
+    case "Wednesday":
+    case "Thursday": 
+    case "Friday":
         console.log("it is a working day")
         break;
     case "Saturday":
@@ -44,3 +59,4 @@ switch (day){
     default:
         console.log("It's Sunday")
 }
+
