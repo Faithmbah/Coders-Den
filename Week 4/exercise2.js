@@ -1,4 +1,4 @@
-
+//Write a code which can give grades to students according to theirs scores:
 let score = 80
 // prompt ("What is your score?")
 if (score >= 80 && score <= 100){
@@ -15,6 +15,7 @@ if (score >= 80 && score <= 100){
     console.log("Input a number between 0 - 100")
 }
 
+//Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
 let season = "March"
 // prompt("Enter a month to find out the season")
 
@@ -42,6 +43,8 @@ switch (season){
         console.log("Enter another month to know the season. \n PS: The is case sensitive")
 }
 
+
+//Check if a day is weekend day or a working day. Your script will take day as an input.
 let day = "Monday"
 // prompt("What is today?")
 

@@ -1,4 +1,4 @@
-
+//Write a program which tells the number of days in a month, now consider leap year.
 let month = "Febuary"
 // prompt ("Enter a month to find out the nunber of days")
 

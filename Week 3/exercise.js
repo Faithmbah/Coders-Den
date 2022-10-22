@@ -1,3 +1,5 @@
+/*Declare firstName, lastName, country, city, age, isMarried, year variable and 
+assign value to it and use the typeof operator to check different data types.*/
 
 let firstName = "Ogechi"
 let lastName = "Mbah"
@@ -13,17 +15,37 @@ typeof(city) === "string"
 typeof(age) === "number" 
 typeof(isMarried) === "boolean"
 
+
+//Check if type of '10' is equal to 10
 let num = "10"
 console.log( num == 10)
 
+//Check if parseInt('9.8') is equal to 10
 let int = parseInt("9.8")
 console.log( int == 10)
 
+//Boolean value is either true or false.
 
-let str = "Data types are devided into two types"
+//Write three JavaScript statement which provide truthy value.
+let A = 4 == 4
+let B = 10 < 12
+let C = 4 < 6
 
+console.log(`${A}`)
+console.log(`${B}`)
+console.log(`${C}`)
 
+//Write three JavaScript statement which provide falsy value.
 
+let D = 0 > 1
+let E = 0 * 2
+let F = 3 === "3"
+console.log(`${D}`)
+console.log(`${E} is a falsy valus`)
+console.log(`${F}`)
+
+/*Figure out the result of the following comparison expression first without 
+using console.log(). After you decide the result confirm it using console.log()*/
 
 let num1 = 4 > 3
 // true
@@ -56,6 +78,9 @@ secondlan = secondlan.length
 
 console.log( ! (`${firstlan} == ${secondlan}`))
 
+/*Figure out the result of the following expressions first without using console.log().
+ After you decide the result confirm it by using console.log()*/
+
 let a = 4 > 3 && 10 < 12
 // true
 let b = 4 > 3 && 10 > 12
@@ -82,7 +107,7 @@ let firstlan1 = 'python'
 let secondlan1 = "jargon"
 console.log(!(` ${firstlan1} && ${secondlan1}`))
 
-
+//Use the Date object to do the following activities
 const now = new Date()
 console.log(now.getFullYear())
 console.log(now.getMonth())
